@@ -9,7 +9,7 @@ def connect():
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     port = 4444
-    host = "192.168.3.179"
+    host = "127.0.0.1"
 
     try:
         
